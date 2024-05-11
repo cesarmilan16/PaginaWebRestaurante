@@ -1,0 +1,79 @@
+/* Cabecera */
+header {
+    background-color: blanchedalmond;
+    color: black;
+    margin: 0;
+    padding: 16px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+/* Cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Pie de página */
+footer {
+    background-color: blanchedalmond;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    margin-top: 150px;
+}
+
+/* Títulos */
+h1, h2 {
+    margin: 20px 0; /* Añade margen de 20 píxeles arriba y abajo */
+}
+
+/* Contenido */
+p {
+    margin: 0 0 20px; /* Añade margen de 20 píxeles abajo */
+}
+
+/* Formulario */
+form {
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    background-color: blanchedalmond;
+    border-radius: 8px;
+}
+
+form label {
+    display: block; /* Convierte las etiquetas en elementos de bloque */
+    margin-bottom: 5px; /* Añade margen de 5 píxeles abajo */
+    font-weight: bold; /* Establece el peso de la fuente en negrita */
+    color: black; /* Color del texto negro */
+}
+
+/* Etiqueta input (tipo text y email) */
+form input[type="text"],
+form input[type="email"] {
+    width: 350px; /* Establece un ancho de 350 píxeles */
+    background-color: white; /* Color de fondo blanco */
+    margin: 8px; /* Añade margen de 8 píxeles */
+    border-radius: 4px; /* Establece esquinas redondeadas */
+}
+
+/* Botones (submit y reset) */
+form button {
+    width: 49%; /* Establece un ancho del 49% */
+    padding: 4px; /* Añade espacio de relleno de 8 píxeles */
+    background-color: #333; /* Color de fondo gris oscuro */
+    color: white; /* Color del texto blanco */
+    border: none; /* Elimina el borde */
+    border-radius: 4px; /* Establece esquinas redondeadas */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar el ratón */
+}
+
+/* Botones del formulario al pasar el ratón */
+form button:hover {
+    background-color: #555; /* Cambia el color de fondo al pasar el ratón */
+}
+
+/* Botones del formulario al hacer clic */
+form button:active {
+    background-color: #222; /* Cambia el color de fondo al hacer clic */
+}

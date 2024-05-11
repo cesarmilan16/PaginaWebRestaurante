@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <!--Codificación-->
+        <meta charset="utf-8">
+        <!-- Para que se ajuste la web al tamaño de la ventana -->
+        <meta name="viewpoint" content="width=device-widh"> <!-- Error de ortografía, debería ser "width=device-width" -->
+        <!-- Título de la web -->
+        <title>Restaurante Malatesta</title>
+
+        <!-- Enlace al archivo JavaScript externo -->
+        <script src="script.js" defer></script>
+
+        <!-- Agregar la hoja de estilos a la página -->
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+
+    <body>
+
+        <!-- Cabecera -->
+        <header>
+            <h1>Restaurante Malatesta</h1>
+            <p>
+                Experiencia de la mia tierra
+            </p>
+        </header>
+
+        <!-- Contenido principal -->
+        <h2>Comida Italiana</h2>
+        <p>
+            Malatesta es un restaurante italiano ubicado en el corazón de Albacete. Con un ambiente acogedor
+            y rústico, ofrece auténtica cocina italiana preparada con ingredientes frescos y de alta calidad. 
+            Su menú presenta una variedad de platos clásicos, desde pastas caseras hasta pizzas horneadas en 
+            horno de leña, así como también antipasti y deliciosos postres. Malatesta se destaca por su ambiente 
+            animado y su servicio cálido y amigable, lo que lo convierte en un destino popular tanto para una 
+            cena romántica como para una comida informal con amigos.
+        </p>
+
+        <!-- Formulario de reservas para el restaurante-->
+        <h3>Formulario de reservas</h3>
+        <form action="/" method="post">
+            <!-- Apartado fecha -->
+            <label for="fecha">Fecha</label>
+            <input type="date" id="fecha" name="fecha" required><br><br>
+
+            <!-- Apartado hora -->
+            <label for="hora">Hora:</label>
+            <select id="hora" name="hora" required>
+                <option value="">Seleccione una hora</option>
+                <option value="13:00">13:00</option>
+                <option value="13:30">13:30</option>
+                <option value="14:00">14:00</option>
+                <option value="14:30">14:30</option>
+                <option value="15:00">15:00</option>
+                <option value="20:30">20:30</option>
+                <option value="21:00">21:00</option>
+                <option value="21:30">21:30</option>
+                <option value="22:00">22:00</option>
+                <option value="22:30">22:30</option>
+                <option value="23:00">23:00</option>
+                <option value="23:30">23:30</option>
+            </select><br><br>
+
+            <!-- Apartado número de personas -->
+            <label for="personas">Personas</label>
+            <select id="personas" name="personas" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br><br>
+
+            <button type="submit">Enviar reserva</button>
+            <button type="reset">Borrar</button>
+        </form>
+
+        <footer>
+            <p>&copy; 2024 | Contacto: <a href="mailto:cliente@example.com">Email cliente</a></p>
+        </footer>
+
+    </body>
+</html>
