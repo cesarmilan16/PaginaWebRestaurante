@@ -48,13 +48,22 @@ form label {
     color: black; /* Color del texto negro */
 }
 
-/* Etiqueta input (tipo text y email) */
-form input[type="text"],
-form input[type="email"] {
-    width: 350px; /* Establece un ancho de 350 píxeles */
-    background-color: white; /* Color de fondo blanco */
-    margin: 8px; /* Añade margen de 8 píxeles */
-    border-radius: 4px; /* Establece esquinas redondeadas */
+/* Estilos para input y los selectores */
+form input[type="date"],
+select {
+    width: 100%; /* Establece el ancho de los elementos al 100% del contenedor */
+    padding: 8px; /* Agrega un espacio interno de 8 píxeles alrededor del contenido */
+    margin-bottom: 15px; /* Agrega un margen en la parte inferior de 15 píxeles */
+    border: 1px solid #ccc; /* Establece un borde de 1 píxel sólido con un color gris claro */
+    border-radius: 4px; /* Establece las esquinas del borde con un radio de 4 píxeles para que sean redondeadas */
+    box-sizing: border-box; /* Garantiza que el ancho y el alto de los elementos incluyan el contenido, el padding y el borde */
+    font-size: 16px; /* Establece el tamaño de fuente en 16 píxeles */
+}
+
+
+/* Estilos para las opciones de los selectores */
+select option {
+    font-size: 16px;
 }
 
 /* Botones (submit y reset) */
